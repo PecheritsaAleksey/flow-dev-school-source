@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font: 900 55px;
+
+  /* font-weight: 900;
+  font-size: 20px; */
+  font-style: italic;
+  text-decoration: underline;
+  line-height: 100px;
+  letter-spacing: 10px;
+  word-spacing: 30px;
+}
+
+.card {
+  /* background-color: aquamarine; */
+  /* background-color: #0074D9; */
+  background-color: rgba(32, 207, 120, 0.452);
+
+  /* border-top: 5px red;
+  border-top-style: solid;
+  border-right: 5px red solid;
+  border-bottom: 5px red solid;
+  border-left: 5px red solid; */
+
+  border: 5px rgb(236, 94, 94) solid;
+
+  border-radius: 15px;
+
+  border-bottom: 5px rgb(32, 129, 219) dotted;
+}

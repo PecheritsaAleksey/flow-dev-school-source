@@ -1,0 +1,17 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.container .card {
+  width: 20%;
+  border: 1px black solid;
+  /* display: inline; */
+  display: inline-block;
+}
+
+.block {
+  display: block;
+  margin: auto;
+  width: fit-content;
+}
