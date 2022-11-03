@@ -1,0 +1,39 @@
+.position {
+  width: 800px;
+  height: 5000px;
+  border: 1px black solid;
+  position: relative;
+  margin: 5px;
+  margin-top: 120px;
+}
+
+.card {
+  width: 50px;
+  height: 50px;
+  background-color: aquamarine;
+  border: 1px black solid;
+  position: absolute;
+}
+
+.card-1 {
+  top: 40px;
+  left: 200px;
+}
+
+.card-2 {
+  bottom: 40px;
+  right: 200px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: burlywood;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: burlywood;
+  padding: 20px;
+}
+
+header button {
+  display: none;
+}
+
+.container {
+  height: 500px;
+  background-color: cadetblue;
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    display: none;
+  }
+
+  header button {
+    display: block;
+  }
+}
