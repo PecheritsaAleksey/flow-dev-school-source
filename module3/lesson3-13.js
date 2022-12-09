@@ -18,6 +18,8 @@ arr.forEach((element, index, thisArr) => {
 //   console.log(el);
 // });
 
+//Это колбэк!!!
+
 const logEl = (el) => console.log(el);
 
 // arr.forEach(logEl);

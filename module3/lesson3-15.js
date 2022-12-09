@@ -119,5 +119,3 @@ let crazyObject2 = {
 };
 
 crazyObject2.bigFunc();
-
-crazyObject2.internalObj.wow();
