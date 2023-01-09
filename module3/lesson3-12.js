@@ -30,6 +30,7 @@ let b = 8;
 
 // }
 
+//Тернарный оператор
 b > 10 ? console.log("b > 10") : b > 9 ? console.log("b > 9") : console.log("b < 9");
 
 // let userRole = "Alex";

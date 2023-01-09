@@ -52,6 +52,7 @@ function Admin(name) {
 }
 
 Admin.prototype = Object.create(User.prototype);
+
 Admin.prototype.sayAdmin = function () {
   console.log("I am admin!");
 };
