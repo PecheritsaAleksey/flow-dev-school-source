@@ -11,3 +11,7 @@
   background-color: #73b8f0;
   margin: 5px;
 }
+
+.card input {
+  max-width: 80%;
+}

@@ -72,3 +72,36 @@ console.log(document.body.childNodes[1].children[1].nextElementSibling);
 console.log("-----------");
 
 console.log(document.querySelector(".container"));
+
+console.log(document.getElementById("best-card"));
+console.log(document.querySelector("#best-card"));
+
+// получение данных
+
+let bestCard = document.querySelector("#best-card");
+// console.log(bestCard.innerText);
+console.log(bestCard.innerHTML);
+
+let bestCardInput = bestCard.children[0];
+
+//атрибуты - DOM-узлы – это обычные объекты JavaScript
+
+console.log(bestCardInput.value);
+console.log(bestCard.id);
+
+// для нестандартных -
+console.log(bestCardInput.getAttribute("myAttribute"));
+
+//attributes
+
+console.log(bestCardInput.attributes);
+
+/*
+  Атрибуты data-* позволяют нам хранить дополнительную информацию о стандартных 
+  семантических элементах HTML без других хаков, таких как нестандартные атрибуты или дополнительные свойства DOM.
+*/
+
+console.log("-----------");
+console.log(bestCardInput.getAttribute("data-message"));
+console.log(bestCardInput.getAttribute("data-message"));
+console.log(bestCardInput.dataset.message);
