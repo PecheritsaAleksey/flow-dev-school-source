@@ -1,5 +1,10 @@
 .container {
   display: flex;
+  margin-bottom: 100px;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .card {
